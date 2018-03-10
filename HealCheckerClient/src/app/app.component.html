@@ -1,0 +1,74 @@
+<div>
+  <mat-toolbar color="primary" class="base-toolbar">
+    <mat-icon>loupe</mat-icon>
+    <span class="app-title">Server Health Checker</span>
+  </mat-toolbar>
+
+
+  <mat-card class="health-widget">
+    <mat-card-content>
+      <div class="widget-icon">
+        <mat-icon>memory</mat-icon>
+      </div>
+      <div class="widget-content">
+        <h1>10.56%</h1>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="health-widget">
+    <mat-card-content>
+      <div class="widget-icon">
+        <mat-icon>compare_arrows</mat-icon>
+      </div>
+      <div class="widget-content">
+        <h1>33.56%</h1>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="health-widget">
+    <mat-card-content>
+      <div class="widget-icon">
+        <mat-icon>language</mat-icon>
+      </div>
+      <div class="widget-content">
+        <h1>46.56%</h1>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+
+
+  <mat-card class="health-widget">
+    <mat-card-content>
+      <div class="widget-icon">
+        <mat-icon>settings</mat-icon>
+      </div>
+      <div class="widget-content">
+        <h1>70.56%</h1>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<div class="charts">
+  <div class="chart-widget">
+    <canvas #barChart width="40" height="40">{{ barChart }}</canvas>
+  </div>
+</div>
+
+<div class="charts">
+  <div class="chart-widget">
+    <canvas #pieChart width="40" height="40">{{ pieChart }}</canvas>
+  </div>
+</div>
+
+<div class="charts">
+  <div class="chart-widget">
+    <canvas #lineChart width="40" height="40">{{ lineChart }}</canvas>
+  </div>
+</div>

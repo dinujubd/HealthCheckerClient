@@ -1,0 +1,50 @@
+.app-title{
+    margin-left: 1em;
+}
+
+.base-toolbar{
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 15px;
+    
+}
+
+.health-widget{
+    width: 20%;
+    float: left;
+    margin-left: 1%;
+}
+
+
+.health-widget-header
+{
+    background: red;
+}
+
+.widget-icon{
+ width: 33%;
+ float: left;
+
+}
+
+.widget-icon mat-icon{
+    font-size: 5em;
+}
+
+
+.widget-content{
+    width: 67%;
+    float: left;
+    text-align: right;
+}
+
+
+.chart-widget
+{
+    padding: 5px;
+    box-shadow: 1px 1px 3px #999;
+    margin: 15px;
+    width: 30%;
+    float: left;
+}
+
+
